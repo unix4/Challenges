@@ -1,0 +1,1 @@
+giveMeSomething str =  "something " ++ str
