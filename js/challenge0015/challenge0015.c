@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+// $BM
 char* giveMeSomething(char* dest) {
     char something[50];
 
@@ -10,16 +11,6 @@ char* giveMeSomething(char* dest) {
     memcpy(dest, something, 40);
 
     return dest;
-}
-
-// Utility: Returns the size of a given string
-int size_of_str(char* str) {
-    int counter = 0;
-    while (str[counter] != '\0') {
-        counter++;
-    }
-
-    return counter - 1; // Ignore trailing '\0'
 }
 
 int main()
