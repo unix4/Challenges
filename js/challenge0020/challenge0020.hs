@@ -1,0 +1,1 @@
+nameString  x  = x ++ "Edabit"
