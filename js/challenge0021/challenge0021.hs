@@ -1,1 +1,1 @@
-lessThan100 x y = do x + y < 100
+printArray x = [1 .. x]

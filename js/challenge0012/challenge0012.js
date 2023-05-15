@@ -1,5 +1,6 @@
-const nextEdge = (side1, side2) => side1 + side2 - 1;
+const remainder = (x, y) => x % y;
 
-console.log(nextEdge(8,10));
-console.log(nextEdge(5,7));
-console.log(nextEdge(9,2));
+console.log(remainder(1,3));
+console.log(remainder(3,4));
+console.log(remainder(-9,45));
+console.log(remainder(5,5));

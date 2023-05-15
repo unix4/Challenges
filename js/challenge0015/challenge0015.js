@@ -1,5 +1,5 @@
-const giveMeSomething = (str) => "something " + str;
+const squared = (x) => x ** 2;
 
-console.log(giveMeSomething("is better than nothing"));
-console.log(giveMeSomething("Bob Jane"));
-console.log(giveMeSomething("something"));
+console.log(squared(5));
+console.log(squared(9));
+console.log(squared(100));

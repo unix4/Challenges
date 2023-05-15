@@ -1,8 +1,9 @@
 #lang racket
 
-(define (sumPolygon n)
-  (* (- n 2) 180))
+(define (points twoPointers threePointers)
+  (+ (* twoPointers 2) (* threePointers 3)))
+  
 
-(sumPolygon 3)
-(sumPolygon 4)
-(sumPolygon 6)
+(points 1 1)
+(points 7 5)
+(points 38 8)

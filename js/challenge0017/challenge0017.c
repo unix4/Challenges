@@ -1,13 +1,11 @@
 #include <stdio.h>
-#include <stdbool.h>
 
-bool lessThanOrEqualToZero(const int x) {
-    return x <= 0;
+int sumPolygon(const int n) {
+    return (n - 2) * 180;
 }
 
 int main(){
-    
-    printf("%d\n", lessThanOrEqualToZero(5));   // 0
-    printf("%d\n", lessThanOrEqualToZero(0));   // 1
-    printf("%d\n", lessThanOrEqualToZero(-2));  // 1
+    printf("%d\n", sumPolygon(3));
+    printf("%d\n", sumPolygon(4)); 
+    printf("%d\n", sumPolygon(6));
 }

@@ -1,4 +1,4 @@
--export ([hello/1]).
+-export ([squared/1]).
 
-hello (Text) ->
-  "something " ++ Text.
+squared (X) ->
+  X * X.

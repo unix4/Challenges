@@ -1,10 +1,9 @@
-sub points{
-	my($twoPointers, $threePointers) = @_;
-	$twoPointers * 2 + $threePointers * 3;
+sub nameString{
+	"$_[0]Edabit";
 }
 
-print points(1, 1);
+print nameString("Mubashir");
 print "\n";
-print points(7, 5);
+print nameString("Matt");
 print "\n";
-print points(38, 8);
+print nameString("javaScript"); 

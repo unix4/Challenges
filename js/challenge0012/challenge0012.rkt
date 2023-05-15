@@ -1,8 +1,11 @@
 #lang racket
 
-(define (nextEdge side1 side2)
-  (- (+ side1 side2) 1))
+; had to define my one method, since remainder already exists
+(define (my_remainder x y )
+  (remainder x y))
+  
 
-(nextEdge 8 10)
-(nextEdge 5 7)
-(nextEdge 9 2)
+(remainder 1 3)
+(remainder 3 4)
+(remainder -9 45)
+(remainder 5 5)

@@ -1,4 +1,4 @@
--export ([nameString/1]).
+-export ([lessThan100/2]).
 
-nameString (X) ->
-  X ++ "Edabit".
+lessThan100 (X, Y) ->
+  (X + Y) < 100.

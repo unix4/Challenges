@@ -1,5 +1,5 @@
-const squared = (x) => x ** 2;
+const lessThanOrEqualToZero = (x) => x <= 0;
 
-console.log(squared(5));
-console.log(squared(9));
-console.log(squared(100));
+console.log(lessThanOrEqualToZero(5));
+console.log(lessThanOrEqualToZero(0));
+console.log(lessThanOrEqualToZero(-2));

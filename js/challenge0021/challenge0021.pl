@@ -1,10 +1,10 @@
-sub lessThan100{
-	my($x, $y) = @_;
-	$x + $y < 100 ? "true" : "false";
+sub printArray{
+	my($n) = @_;
+	(1..$n);
 }
 
-print lessThan100(22, 15);
+print printArray(1);
 print "\n";
-print lessThan100(83, 34);
+print printArray(3);
 print "\n";
-print lessThan100(3, 77); 
+print printArray(6); 

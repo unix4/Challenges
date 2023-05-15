@@ -1,1 +1,1 @@
-lessThanOrEqualToZero x = do x <= 0
+circuitPower voltage current = voltage * current

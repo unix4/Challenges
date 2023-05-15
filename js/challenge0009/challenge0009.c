@@ -1,14 +1,13 @@
 #include <stdio.h>
-#include <stdbool.h>
 
-bool lessThanOrEqualToZero(const int x) {
-    return x <= 0;
+int circuitPower(const int voltage, const int current) {
+    return voltage * current;
 }
 
 int main() {
-    printf("%b\n", lessThanOrEqualToZero(5));
-    printf("%b\n", lessThanOrEqualToZero(0));
-    printf("%b\n", lessThanOrEqualToZero(-2));
-
+    printf("%i\n", circuitPower(230,10));
+    printf("%i\n", circuitPower(110,3));
+    printf("%i\n", circuitPower(480,20));
+    
     return 0;
 }

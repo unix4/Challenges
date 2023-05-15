@@ -1,4 +1,4 @@
--export ([nextEdge/2]).
+-export ([remainder/2]).
 
-nextEdge (Side1, Side2) ->
-  Side1 + Side2 - 1.
+remainder (X, Y) ->
+  X rem Y.

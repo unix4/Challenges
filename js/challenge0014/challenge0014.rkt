@@ -1,8 +1,8 @@
 #lang racket
 
-(define (findPerimeter length width)
-  (+ (* length 2) (* width 2)))
+(define (giveMeSomething str)
+  (string-append "something " str))
 
-(findPerimeter 6 7)
-(findPerimeter 20 10)
-(findPerimeter 2 9)
+(giveMeSomething "is better than nothing")
+(giveMeSomething "Bob Jane")
+(giveMeSomething "something")

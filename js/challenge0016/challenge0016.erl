@@ -1,4 +1,4 @@
--export ([squared/1]).
+-export ([lessThanOrEqualToZero/1]).
 
-squared (X) ->
-  X * X.
+lessThanOrEqualToZero (X) ->
+  X =< 0.

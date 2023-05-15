@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-int sumPolygon(const int n) {
-    return (n - 2) * 180;
+int points(const int twoPointers, const int threePointers) {
+    return twoPointers * 2 + threePointers * 3;
 }
 
 int main(){
-    printf("%d\n", sumPolygon(3));
-    printf("%d\n", sumPolygon(4)); 
-    printf("%d\n", sumPolygon(6));
+    
+    printf("%d\n", points(1, 1));
+    printf("%d\n", points(7, 5));
+    printf("%d\n", points(38, 8));
 }

@@ -1,1 +1,1 @@
-sumPolygon  n =  (n-2)*180
+points  twoPointers threePointers =  twoPointers * 2 + threePointers * 3

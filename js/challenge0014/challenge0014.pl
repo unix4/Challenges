@@ -1,10 +1,9 @@
-sub findPerimeter {
-	my($length, $width) = @_;
-	$length * 2 + $width * 2;
+sub giveMeSomething{
+	"something $_[0]";
 }
 
-print findPerimeter(6,7);
+print giveMeSomething("is better than nothing");
 print "\n";
-print findPerimeter(20,10);
+print giveMeSomething("Bob Jane");
 print "\n";
-print findPerimeter(2,9);
+print giveMeSomething("something");

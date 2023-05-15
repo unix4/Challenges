@@ -1,1 +1,1 @@
-const nameString = (name) => name + "Edabit";
+const lessThan100 = (a, b) => (a + b) < 100;

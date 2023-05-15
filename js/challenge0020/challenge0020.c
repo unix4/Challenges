@@ -1,20 +1,12 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdbool.h>
 
-char* nameString(char* str) {
-    char edabit[30];
-    strcpy(edabit, "Edabit");
-    strcat(str, edabit);
-    return str;
+bool lessThan100(const int x, const int y) {
+    return (x + y) < 100;
 }
 
 int main(){
-    
-    char str1[30] = "Mubashir";
-    char str2[30] = "Matt";
-    char str3[30] = "javascript";
-
-    printf("%s\n", nameString(str1));
-    printf("%s\n", nameString(str2));
-    printf("%s\n", nameString(str3));
+    printf("%d\n", lessThan100(22, 15));
+    printf("%d\n", lessThan100(83, 34));
+    printf("%d\n", lessThan100(3, 77));
 }

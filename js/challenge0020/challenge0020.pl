@@ -1,9 +1,10 @@
-sub nameString{
-	"$_[0]Edabit";
+sub lessThan100{
+	my($x, $y) = @_;
+	$x + $y < 100 ? "true" : "false";
 }
 
-print nameString("Mubashir");
+print lessThan100(22, 15);
 print "\n";
-print nameString("Matt");
+print lessThan100(83, 34);
 print "\n";
-print nameString("javaScript"); 
+print lessThan100(3, 77); 

@@ -1,7 +1,7 @@
 -module(main).
 -author("devma").
 
--export ([circuitPower/2]).
+-export ([howManySeconds/1]).
 
-circuitPower (Voltage, Current) ->
-  Voltage * Current.
+howManySeconds (Hours) ->
+  Hours * 3600.

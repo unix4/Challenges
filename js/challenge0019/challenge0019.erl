@@ -1,4 +1,4 @@
--export ([points/2]).
+-export ([nameString/1]).
 
-points (TwoPointers, ThreePointers) ->
-  TwoPointers * 2 + ThreePointers * 3.
+nameString (X) ->
+  X ++ "Edabit".

@@ -1,4 +1,4 @@
--export ([remainder/2]).
+-export ([findPerimeter/2]).
 
-remainder (X, Y) ->
-  X rem Y.
+findPerimeter (Length, Width) ->
+  Length * 2 + Width * 2.

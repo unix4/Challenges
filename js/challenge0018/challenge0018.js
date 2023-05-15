@@ -1,5 +1,5 @@
-const sumPolygon = (n) => (n-2)*180;
+const points = (twoPointers, threePointers) => twoPointers * 2 + threePointers * 3;
 
-console.log(sumPolygon(3));
-console.log(sumPolygon(4));
-console.log(sumPolygon(6));
+console.log(points(1, 1));
+console.log(points(7, 5));
+console.log(points(38, 8));

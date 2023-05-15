@@ -1,1 +1,1 @@
-remainder x y = do rem x y
+findPerimeter x y =  x * 2 + y * 2

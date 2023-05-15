@@ -1,5 +1,5 @@
-const circuitPower = (voltage, current) => voltage * current;
+const howManySeconds = (hours) => hours * 3600;
 
-console.log(circuitPower(230,10));
-console.log(circuitPower(110,3));
-console.log(circuitPower(480,20));
+console.log(howManySeconds(2));
+console.log(howManySeconds(10));
+console.log(howManySeconds(24));

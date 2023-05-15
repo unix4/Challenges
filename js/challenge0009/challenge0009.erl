@@ -1,7 +1,7 @@
 -module(main).
 -author("devma").
 
--export ([lessThanOrEqualToZero/1]).
+-export ([circuitPower/2]).
 
-lessThanOrEqualToZero (X) ->
-  X =< 0.
+circuitPower (Voltage, Current) ->
+  Voltage * Current.

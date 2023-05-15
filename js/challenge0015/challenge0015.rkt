@@ -1,8 +1,8 @@
 #lang racket
 
-(define (giveMeSomething str)
-  (string-append "something " str))
+(define (squared x)
+  (* x x))
 
-(giveMeSomething "is better than nothing")
-(giveMeSomething "Bob Jane")
-(giveMeSomething "something")
+(squared 5)
+(squared 9)
+(squared 100)

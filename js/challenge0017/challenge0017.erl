@@ -1,4 +1,4 @@
--export ([lessThanOrEqualToZero/1]).
+-export ([sumPolygon/1]).
 
-lessThanOrEqualToZero (X) ->
-  X =< 0.
+sumPolygon (N) ->
+  (N-2) * 180.

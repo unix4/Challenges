@@ -1,8 +1,8 @@
 #lang racket
 
-(define (circuitPower voltage current)
-  (* voltage current))
+(define (howManySeconds hours)
+  (* hours 3600))
 
-(circuitPower 230 10)
-(circuitPower 110 3)
-(circuitPower 480 20)
+(howManySeconds 2)
+(howManySeconds 10)
+(howManySeconds 24)

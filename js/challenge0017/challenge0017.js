@@ -1,5 +1,5 @@
-const lessThanOrEqualToZero = (x) => x <= 0;
+const sumPolygon = (n) => (n-2)*180;
 
-console.log(lessThanOrEqualToZero(5));
-console.log(lessThanOrEqualToZero(0));
-console.log(lessThanOrEqualToZero(-2));
+console.log(sumPolygon(3));
+console.log(sumPolygon(4));
+console.log(sumPolygon(6));

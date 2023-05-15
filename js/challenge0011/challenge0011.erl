@@ -1,7 +1,4 @@
--module(main).
--author("devma").
+-export ([nextEdge/2]).
 
--export ([howManySeconds/1]).
-
-howManySeconds (Hours) ->
-  Hours * 3600.
+nextEdge (Side1, Side2) ->
+  Side1 + Side2 - 1.

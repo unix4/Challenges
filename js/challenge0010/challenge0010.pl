@@ -1,12 +1,10 @@
-sub circuitPower {
-	$voltage = $_[0];
-	$current = $_[1];
-	$voltage * $current;
+sub howManySeconds {
+	$_[0] * 3600;
 }
 
-print circuitPower(230,10);
+print howManySeconds(2);
 print "\n";
-print circuitPower(110,3);
+print howManySeconds(10);
 print "\n";
-print circuitPower(480,20);
+print howManySeconds(24);
 print "\n";

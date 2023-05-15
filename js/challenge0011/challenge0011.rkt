@@ -1,8 +1,8 @@
 #lang racket
 
-(define (howManySeconds hours)
-  (* hours 3600))
+(define (nextEdge side1 side2)
+  (- (+ side1 side2) 1))
 
-(howManySeconds 2)
-(howManySeconds 10)
-(howManySeconds 24)
+(nextEdge 8 10)
+(nextEdge 5 7)
+(nextEdge 9 2)

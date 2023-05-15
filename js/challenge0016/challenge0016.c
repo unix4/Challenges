@@ -1,13 +1,13 @@
 #include <stdio.h>
-#include <math.h>
+#include <stdbool.h>
 
-double squared(const int x) {
-    return pow(x, 2);
+bool lessThanOrEqualToZero(const int x) {
+    return x <= 0;
 }
 
 int main(){
     
-    printf("%2.f\n", squared(5));
-    printf("%2.f\n", squared(9));
-    printf("%2.f\n", squared(100));
+    printf("%d\n", lessThanOrEqualToZero(5));   // 0
+    printf("%d\n", lessThanOrEqualToZero(0));   // 1
+    printf("%d\n", lessThanOrEqualToZero(-2));  // 1
 }

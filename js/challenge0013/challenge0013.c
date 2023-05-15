@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-int remainder(const int x, const int y) {
-    return x % y;
+int findPerimeter(const int length, const int width) {
+   return (length * 2) + (width * 2);
 }
 
 int main() {
-    printf("%i\n", remainder(1,3));
-    printf("%i\n", remainder(3,4));
-    printf("%i\n", remainder(-9,45));
-    printf("%i\n", remainder(5,5));
+    printf("%i\n", findPerimeter(6,7));
+    printf("%i\n", findPerimeter(20,10));
+    printf("%i\n", findPerimeter(2,9));
     
     return 0;
 }

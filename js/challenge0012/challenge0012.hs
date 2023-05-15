@@ -1,1 +1,1 @@
-nextEdge side1 side2 = do side1 + side2 - 1
+remainder x y = do rem x y

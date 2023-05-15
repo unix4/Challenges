@@ -1,9 +1,9 @@
-sub squared{
-	$_[0] ** 2;
+sub lessThanOrEqualToZero{
+	$_[0] <= 0 ? "true" : "false";
 }
 
-print squared(5);
+print lessThanOrEqualToZero(5);
 print "\n";
-print squared(9);
+print lessThanOrEqualToZero(0);
 print "\n";
-print squared(100);
+print lessThanOrEqualToZero(-2);

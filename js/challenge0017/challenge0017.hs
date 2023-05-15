@@ -1,1 +1,1 @@
-lessThanOrEqualToZero x =  x <= 0
+sumPolygon  n =  (n-2)*180

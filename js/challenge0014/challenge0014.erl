@@ -1,4 +1,4 @@
--export ([findPerimeter/2]).
+-export ([hello/1]).
 
-findPerimeter (Length, Width) ->
-  Length * 2 + Width * 2.
+hello (Text) ->
+  "something " ++ Text.

@@ -1,14 +1,12 @@
-sub lessThanOrEqualToZero {
-	if($_[0] <= 0){
-		"true";
-	}else {
-		"false";
-	} 
+sub circuitPower {
+	$voltage = $_[0];
+	$current = $_[1];
+	$voltage * $current;
 }
 
-print lessThanOrEqualToZero(5);
+print circuitPower(230,10);
 print "\n";
-print lessThanOrEqualToZero(0);
+print circuitPower(110,3);
 print "\n";
-print lessThanOrEqualToZero(-2);
+print circuitPower(480,20);
 print "\n";

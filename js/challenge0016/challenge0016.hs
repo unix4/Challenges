@@ -1,1 +1,1 @@
-squared x =  x * x
+lessThanOrEqualToZero x =  x <= 0

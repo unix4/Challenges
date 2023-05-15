@@ -1,8 +1,8 @@
 #lang racket
 
-(define (lessThanOrEqualToZero x)
-  (<= x 0))
+(define (circuitPower voltage current)
+  (* voltage current))
 
-(lessThanOrEqualToZero 5)
-(lessThanOrEqualToZero 0)
-(lessThanOrEqualToZero -2)
+(circuitPower 230 10)
+(circuitPower 110 3)
+(circuitPower 480 20)

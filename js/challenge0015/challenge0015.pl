@@ -1,9 +1,9 @@
-sub giveMeSomething{
-	"something $_[0]";
+sub squared{
+	$_[0] ** 2;
 }
 
-print giveMeSomething("is better than nothing");
+print squared(5);
 print "\n";
-print giveMeSomething("Bob Jane");
+print squared(9);
 print "\n";
-print giveMeSomething("something");
+print squared(100);

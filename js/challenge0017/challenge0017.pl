@@ -1,9 +1,9 @@
-sub lessThanOrEqualToZero{
-	$_[0] <= 0 ? "true" : "false";
+sub sumPolygon{
+	($_[0] - 2) * 180;
 }
 
-print lessThanOrEqualToZero(5);
+print sumPolygon(3);
 print "\n";
-print lessThanOrEqualToZero(0);
+print sumPolygon(4);
 print "\n";
-print lessThanOrEqualToZero(-2);
+print sumPolygon(6);

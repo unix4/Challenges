@@ -1,10 +1,15 @@
-sub nextEdge {
-	$_[0] + $_[1] - 1;
+sub remainder {
+	my($x, $y) = @_;
+	if($x lt 0) {
+		$x = $x * (-1);
+	}
+	$x % $y;
 }
 
-print nextEdge(8,10);
+print remainder(1,3);
 print "\n";
-print nextEdge(5,7);
+print remainder(3,5);
 print "\n";
-print nextEdge(9,2);
+print remainder(-9,45);
 print "\n";
+print remainder(5,5);

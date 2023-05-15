@@ -1,10 +1,10 @@
-sub howManySeconds {
-	$_[0] * 3600;
+sub nextEdge {
+	$_[0] + $_[1] - 1;
 }
 
-print howManySeconds(2);
+print nextEdge(8,10);
 print "\n";
-print howManySeconds(10);
+print nextEdge(5,7);
 print "\n";
-print howManySeconds(24);
+print nextEdge(9,2);
 print "\n";

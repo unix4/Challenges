@@ -1,8 +1,9 @@
 #lang racket
 
-(define (lessThan100 x y)
-  (< 100 (+ x y)))
+(define (printArray n)
+  (let ([max (+ n 1)])
+  (rest (build-list max values))))
 
-(lessThan100 22 15)
-(lessThan100 83 34)
-(lessThan100 3 77)
+(printArray 1)
+(printArray 3)
+(printArray 6)

@@ -1,9 +1,10 @@
-sub sumPolygon{
-	($_[0] - 2) * 180;
+sub points{
+	my($twoPointers, $threePointers) = @_;
+	$twoPointers * 2 + $threePointers * 3;
 }
 
-print sumPolygon(3);
+print points(1, 1);
 print "\n";
-print sumPolygon(4);
+print points(7, 5);
 print "\n";
-print sumPolygon(6);
+print points(38, 8);

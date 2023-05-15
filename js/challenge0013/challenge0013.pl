@@ -1,15 +1,10 @@
-sub remainder {
-	my($x, $y) = @_;
-	if($x lt 0) {
-		$x = $x * (-1);
-	}
-	$x % $y;
+sub findPerimeter {
+	my($length, $width) = @_;
+	$length * 2 + $width * 2;
 }
 
-print remainder(1,3);
+print findPerimeter(6,7);
 print "\n";
-print remainder(3,5);
+print findPerimeter(20,10);
 print "\n";
-print remainder(-9,45);
-print "\n";
-print remainder(5,5);
+print findPerimeter(2,9);

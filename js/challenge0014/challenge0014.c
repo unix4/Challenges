@@ -1,13 +1,30 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-int findPerimeter(const int length, const int width) {
-   return (length * 2) + (width * 2);
+// $BM
+char* giveMeSomething(char* dest) {
+    char something[50];
+
+    strcpy(something, "something ");
+    strcat(something, dest);
+    memcpy(dest, something, 40);
+
+    return dest;
 }
 
-int main() {
-    printf("%i\n", findPerimeter(6,7));
-    printf("%i\n", findPerimeter(20,10));
-    printf("%i\n", findPerimeter(2,9));
-    
-    return 0;
+int main()
+{
+    char first_sentence[50];
+    strcpy(first_sentence, "is better than nothing");
+
+    char second_sentence[50];
+    strcpy(second_sentence, "Bob Jane");
+
+    char third_sentence[20];
+    strcpy(third_sentence, "something");
+
+    printf("%s\n", giveMeSomething(first_sentence));
+    printf("%s\n", giveMeSomething(second_sentence));
+    printf("%s\n", giveMeSomething(third_sentence));
 }

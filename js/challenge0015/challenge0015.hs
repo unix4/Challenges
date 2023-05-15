@@ -1,1 +1,1 @@
-giveMeSomething str =  "something " ++ str
+squared x =  x * x

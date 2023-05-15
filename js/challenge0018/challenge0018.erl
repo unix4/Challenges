@@ -1,4 +1,4 @@
--export ([sumPolygon/1]).
+-export ([points/2]).
 
-sumPolygon (N) ->
-  (N-2) * 180.
+points (TwoPointers, ThreePointers) ->
+  TwoPointers * 2 + ThreePointers * 3.

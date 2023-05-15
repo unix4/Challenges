@@ -1,1 +1,1 @@
-circuitPower voltage current = voltage * current
+howManySeconds hours = hours * 3600

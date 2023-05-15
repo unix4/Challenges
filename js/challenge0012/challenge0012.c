@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-int nextEdge(const int size1, const int size2) {
-    return size1 + size2 - 1;
+int remainder(const int x, const int y) {
+    return x % y;
 }
 
 int main() {
-    printf("%i\n", nextEdge(8,10));
-    printf("%i\n", nextEdge(5,7));
-    printf("%i\n", nextEdge(9,2));
-
+    printf("%i\n", remainder(1,3));
+    printf("%i\n", remainder(3,4));
+    printf("%i\n", remainder(-9,45));
+    printf("%i\n", remainder(5,5));
+    
     return 0;
 }

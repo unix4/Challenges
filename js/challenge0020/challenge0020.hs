@@ -1,1 +1,1 @@
-nameString  x  = x ++ "Edabit"
+lessThan100 x y = do x + y < 100
