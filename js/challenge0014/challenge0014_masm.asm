@@ -6,11 +6,6 @@ ExitProcess proto,dwExitCode:dword
 include c:\masm\Irvine\Irvine32.inc
 includelib c:\masm\Irvine\Irvine32.lib
 
-Str_copy PROTO,
-	source: PTR BYTE,
-	target: PTR BYTE
-
-
 .data
 something BYTE "something ",0
 my_text1 BYTE "Bob Jane",0
